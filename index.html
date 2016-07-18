@@ -1,0 +1,647 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+ <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+<link href="css/Estilo.css" rel="stylesheet" />
+<script src="js/jquery-1.9.0.js" type="text/javascript"></script>
+<script src="js/jquery-ui.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script src="js/jquery.spritely.js" type="text/javascript"></script>
+<script src="js/Introduccion.js" type="text/javascript"></script>
+<script src="js/rotate.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+	<audio id="sonido1">
+	<source src="sound/Pase_del_logo.mp3"></source>
+	<source src="sound/Pase_del_logo.ogg"></source>
+	</audio>
+    
+    <audio id="sonido2">
+	<source src="sound/fondoo.mp3"></source>
+	<source src="sound/fondoo.ogg"></source>
+	</audio>
+    
+    <audio id="sonido3">
+	<source src="sound/elect.mp3"></source>
+	<source src="sound/elect.ogg"></source>
+	</audio>
+    
+    <audio id="sonido4">
+	<source src="sound/choque.mp3"></source>
+	<source src="sound/choque.ogg"></source>
+	</audio>
+    
+    <audio id="sonido5">
+	<source src="sound/carro.mp3"></source>
+	<source src="sound/carro.ogg"></source>
+	</audio>
+    
+    <audio id="sonido6">
+	<source src="sound/rapido.mp3"></source>
+	<source src="sound/rapido.ogg"></source>
+	</audio>
+    
+    <audio id="sonido7">
+	<source src="sound/hoja.mp3"></source>
+	<source src="sound/hoja.ogg"></source>
+	</audio>
+    
+    <audio id="sonido8">
+	<source src="sound/link.mp3"></source>
+	<source src="sound/link.ogg"></source>
+	</audio>
+    
+    <audio id="sonido9">
+	<source src="sound/chou.mp3"></source>
+	<source src="sound/chou.ogg"></source>
+	</audio>
+    
+    <audio id="sonido10">
+	<source src="sound/conc.mp3"></source>
+	<source src="sound/conc.ogg"></source>
+	</audio>
+    
+    <audio id="sonido11">
+	<source src="sound/brinco.mp3"></source>
+	<source src="sound/brinco.ogg"></source>
+	</audio>
+    
+    <audio id="sonido12">
+	<source src="sound/pong.mp3"></source>
+	<source src="sound/pong.ogg"></source>
+	</audio>
+    
+    <audio id="sonido13">
+	<source src="sound/pelito.mp3"></source>
+	<source src="sound/pelito.ogg"></source>
+	</audio>
+    
+    <audio id="sonido14">
+	<source src="sound/fin.mp3"></source>
+	<source src="sound/fin.ogg"></source>
+	</audio>
+
+    <div id="Santillana_present">
+        	
+  
+        
+        <!---------Caratula ---------------------------->
+        
+        <div id="caratula" class="escena">
+			<div id="pres3"></div>
+            <div id="pres2"></div> 
+            <div id="pres1"></div>
+            
+            
+            <div id="intro"></div>
+            
+            <div id="titulo_car"></div>
+            
+            <img id="m1" class="m" src="img/caratula/introduccion.png" style="width:0%; position:absolute; left:184px; top:77px;"/>
+            
+            <img id="m2" class="m"src="img/caratula/tarea.png" style="width:0%; position:absolute; left:185px; top:174px;"/>
+            
+            <img id="m3" class="m" src="img/caratula/proceso.png" style="width:0%; position:absolute; left:195px; top:270px;"/>
+            
+            <img id="m4" class="m" src="img/caratula/recursos.png" style="width:0%; position:absolute; left:715px; top:67px;"/>
+            
+            <img id="m5" class="m" src="img/caratula/evaluacion.png" style="width:0%; position:absolute; left:734px; top:176px;"/>
+            
+            <img id="m6" class="m" src="img/caratula/conclusion.png" style="width:0%; position:absolute; left:722px; top:270px;"/>
+            
+            <div id="hum1" class="hum"></div>
+            <div id="hum2" class="hum"></div>
+            <div id="hum3" class="hum"></div>
+            <div id="hum4" class="hum"></div>
+            <div id="hum5" class="hum"></div>
+            <div id="hum6" class="hum"></div>
+            
+            <img id="estrellam" src="img/caratula/estrella.png" style="width:5%; position:absolute; left:466px; top:127px; display:none;"/>
+            
+            <div id="c1" class="c"></div>
+            <div id="c2" class="c"></div>
+            <div id="c3" class="c"></div>
+            <div id="c4" class="c"></div>
+            <div id="c5" class="c"></div>
+            <div id="c6" class="c"></div>
+        </div>
+
+        <!--------- Fin de Caratula ---------------------------->
+        
+        <!------------------------------------------------------------->
+        <!------------------- INTROCUCCION ---------------------------->
+        <!------------------------------------------------------------->
+        
+        <div id="escena1" class="escena introduccion">
+
+            <img id="cinta1_1"src="img/introduccion/cinta2.png" style="width:0px; height:102px; position:absolute; top:0px; left:0px;"/>
+        
+            <div id="titulo_int"></div>
+            
+            <div id="text1_1">
+			En todos los parques de diversiones
+            <br>
+            se pueden encontrar juegos
+            <br>
+            mecánicos cuyas fuerzas aceleran 
+            <br>
+            carros, golpean cuerpos 
+            <br>
+            o los detienen, etc.
+            <br>
+            <br>
+            Todas las fuerzas presentes 
+   			<br>
+            en los juegos mecánicos pueden ser
+            <br>
+            graficadas en un plano cartesiano
+            <br>
+            con su origen, dirección, sentido 
+            <br>
+            y magnitud correspondientes.
+            </div>
+            
+           <div id="letras1" class="letras"></div>
+           
+           <div id="carro1">
+           <div class="chispa"></div>
+           </div>
+            
+            <div id="izq1" class="izquierda"></div>
+            <div id="der1" class="derecha"></div>
+       		<img id="inicio1" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini1" class="ini"></div>  
+            
+            <div id="iii1" class="iii"></div>
+            <div id="ddd1" class="ddd"></div>
+            
+            <div id="i1" class="izq"></div>
+            <div id="d1" class="der"></div>
+                      	
+        </div>
+        
+        <!------------------------------------------------------------->
+        <!------------------------------------------------------------->
+        
+        <div id="escena2" class="escena introduccion">
+        
+            <div id="cinta1_2" style="background-image:url(img/introduccion/cinta2.png); width:983px; height:102px; position:absolute; top:0px; left:0px;">
+            </div>
+
+            <div id="titulo_int"></div>
+            
+            <div id="text1_2">
+			Cuando estamos en algunos juegos
+            <br>
+            mecánicos, nuestros cuerpos se van 
+            <br>
+            hacia adelante en el momento en que frenan.
+            <br>
+            Asimismo, cuando un carrito es más grande
+            <br>
+            que otro, golpea con  mayor fuerza.
+            <br>
+            <br>
+            Cuando nos sentamos en una banca 
+            <br>
+            del parque de diversiones, nuestro peso 
+            <br>
+            se encuentra en equilibrio con la fuerza normal.
+            <br>
+            <br>
+            Estos son solo ejemplos de cómo las leyes 
+            <br>
+            físicas están presentes en los juegos
+            <br>
+            mecánicos y en todas las actividades 
+            <br>
+            que realizamos a diario.
+            
+            </div>
+            
+            <div id="letras2" class="letras"></div>
+            
+            <div id="carro2">
+            <div class="chispa"></div>
+            </div>
+            <div id="carro3">
+            <div class="chispa"></div>
+            </div>
+            
+            <div id="izq2" class="izquierda"></div>
+            <div id="der2" class="derecha"></div>
+            <img id="inicio2" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini2" class="ini"></div>  
+            
+            <div id="iii2" class="iii"></div>
+            <div id="ddd2" class="ddd"></div>
+            
+            
+            <div id="i2" class="izq"></div>
+            <div id="d2" class="der"></div>
+      
+        </div>
+      
+        <!------------------------------------------------------------->
+        <!------------------------------------------------------------->
+        
+        <div id="escena3" class="escena introduccion">
+        
+            <div id="cinta1_3" style="background-image:url(img/introduccion/cinta2.png); width:983px; height:102px; position:absolute; top:0px; left:0px;">
+            </div>
+            
+            <div id="titulo_int"></div>
+            
+            <div id="text1_3">
+            La velocidad es un factor importante 
+            <br>
+            en los juegos mecánicos. Mientras más velocidad
+            <br>
+            se adquiera durante el movimiento, más divertido
+            <br>
+            será un juego.
+            <br>
+            <br>
+            Los cuerpos en los juegos mecánicos
+            <br>
+            siguen un movimiento rectilíneo uniforme
+            <br>
+            o un movimiento acelerado, según sea
+            <br>
+            el diseño del mismo.
+            </div>
+            
+            <div id="letras3" class="letras"></div>
+            
+            <div id="carro4">
+            <div class="chispa"></div>
+            </div>
+            
+            <div id="carro5">
+            <div class="chispa"></div>
+            </div>
+            
+            <div id="izq3" class="izquierda"></div>
+            <div id="der3" class="derecha"></div>
+            <img id="inicio3" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini3" class="ini"></div>  
+            
+            <div id="iii3" class="iii"></div>
+            <div id="ddd3" class="ddd"></div>
+           
+            
+            <div id="i3" class="izq"></div>
+            <div id="d3" class="der"></div>
+
+        </div>
+
+        <!------------------------------------------------------------->
+        <!------------------- FIN DE INTRODUCCION --------------------->
+        <!------------------------------------------------------------->
+        
+        
+        <!------------------------------------------------------------->
+        <!-------------------------- TAREA ---------------------------->
+        <!------------------------------------------------------------->
+        
+        <div id="escena4" class="escena">
+        	
+        <img id="cinta2_1"src="img/tarea/cinta1.png" style="width:0px; height:102px; position:absolute; top:0px; left:0px;"/>
+        
+        <div class="titulo_tarea"></div>
+        
+        <img id="brillo" src="img/tarea/brilloo.gif" style="width:60%; position:absolute; top:-93px; left:499px; cursor:pointer;"/>
+        
+        <div id="izq4" class="izquierda"></div>
+        <div id="der4" class="derecha"></div>
+        <img id="inicio4" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini4" class="ini"></div>  
+        
+        <div id="iii4" class="iii"></div>
+            <div id="ddd4" class="ddd"></div>
+
+        
+        <div id="i4" class="izq"></div>
+        <div id="d4" class="der"></div>
+        
+        </div>
+ 
+        <!------------------------------------------------------------->
+        <!------------------------------------------------------------->      
+        
+        <div id="escena5" class="escena">
+
+        <div id="cinta2_2" style="background-image:url(img/tarea/cinta2.png); background-repeat:no-repeat; width:983px; height:102px; position:absolute; top:0px; left:0px;">
+        </div>
+        
+         <div class="titulo_tarea"></div>
+         
+         <div id="papel1"></div>
+         <div id="papel2">
+         	<div id="text5">
+            <b>
+            La clase se dividirá 
+            <br>
+            en equipos que investigarán
+            <br>
+            los siguientes puntos
+            <br>
+            sobre los juegos mecánicos:
+            <br>
+            <br>
+            • Las fuerzas.
+            <br>
+            • Las leyes de Newton.
+            </b>
+            </div>
+         </div>
+        
+        <div id="izq5" class="izquierda"></div>
+        <div id="der5" class="derecha"></div>
+        <img id="inicio5" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini5" class="ini"></div>  
+            
+        <div id="iii5" class="iii"></div>
+            <div id="ddd5" class="ddd"></div>
+
+        
+        <div id="i5" class="izq"></div>
+        <div id="d5" class="der"></div>
+        
+        </div>
+            
+        <!------------------------------------------------------------->
+        <!---------------------- FIN DE TAREA ------------------------->
+        <!------------------------------------------------------------->
+        
+        
+        <!------------------------------------------------------------->
+        <!-------------------------- PROCESO---------------------------->
+        <!------------------------------------------------------------->                
+            
+        <div id="escena6" class="escena">
+    
+        	<img id="cinta3_1"src="img/proceso/cinta.png" style="width:0px; height:102px; position:absolute; top:0px; left:0px;"/>
+ 
+            <div class="titulo_proceso"></div>
+            			
+           	<div id="libro1"></div>
+            
+            <div id="ruleta"></div>
+            	
+            <div id="izq6" class="izquierda"></div>
+            <div id="der6" class="derecha"></div>
+            <img id="inicio6" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini6" class="ini"></div>  
+            
+            <div id="iii6" class="iii"></div>
+            <div id="ddd6" class="ddd"></div>
+            
+
+            
+            <div id="i6" class="izq"></div>
+            <div id="d6" class="der"></div>
+        
+        </div>
+        
+        <div id="escena7" class="escena">
+ 			
+            <div class="titulo_proceso"></div>
+            
+        	<div id="libro2">
+            	<div id="text7_2">
+                <font color="#0033CC">
+                Cada equipo investigará
+                <br> 
+                los temas pedidos en la sección</font> 
+                <br>
+                <font id="t" style=" position:absolute; cursor:pointer;">Tarea</font> <font color="#0033CC" style="position:absolute; left:57px;"> y elaborará un informe</font> 
+                <br>
+                <font color="#0033CC">sobre los juegos mecánicos, 
+                <br>
+                el cual será entregado 
+                <br>
+                a su profesor o profesora.
+                <br>
+                <br>
+                El informe deberá tener
+                <br>
+                el siguiente </font> <font id="t2" color="#FF0000" style="cursor:pointer;">formato:</font>
+                </div>
+                
+                <img id="globo" src="img/globo.png" style="position:absolute; width:0%; top:286px; left:170px;"/>
+            </div>
+            
+            <div id="izq7" class="izquierda"></div>
+            <div id="der7" class="derecha"></div>
+            <img id="inicio7" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini7" class="ini"></div>  
+            
+            <div id="iii7" class="iii"></div>
+            <div id="ddd7" class="ddd"></div>
+            
+
+            
+            <div id="i7" class="izq"></div>
+            <div id="d7" class="der"></div>
+            
+        </div>
+        
+        <div id="escena8" class="escena">
+        	
+            <div class="titulo_proceso"></div>
+            
+        	<div id="libro3">
+            	<div id="text7_3">
+                <font color="#0033CC">
+                Cada equipo expondrá ante la clase, 
+                <br>
+                con ayuda de una presentación 
+                <br>
+                de PowerPoint, los puntos 
+                <br>
+                más importantes de su informe.
+                <br>
+                <br>
+                Pueden utilizar fotos y gráficos
+                <br>
+                tomados de Internet o gráficos
+                <br>
+                elaborados con PowerPoint.
+                </font>
+                </div>
+                <img id="chispa2" src="img/introduccion/chispaa.gif" style="width:4%; position:absolute; top:219px; left:691px;"/>
+                
+                <div id="text7_4">
+                Las leyes de Newton
+                <br>
+                presentes en la rueda
+                <br>
+                de Chicago son:....
+                </div>
+                
+                <div id="text7_5">
+                Las leyes de Newton 
+                <br>
+                presentes en la montaña
+                <br>
+                rusa son:.... 
+                </div>
+                
+                
+                
+                <div id="text7_6">
+                El equipo X ha decidido
+                <br>
+                que su juego favorito
+                <br>
+                es.... porque....
+                </div>
+            </div>
+
+            <div id="izq8" class="izquierda"></div>
+            <div id="der8" class="derecha"></div>
+            <img id="inicio8" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini8" class="ini"></div>  
+            
+            <div id="iii8" class="iii"></div>
+            <div id="ddd8" class="ddd"></div>
+
+            
+            <div id="i8" class="izq"></div>
+            <div id="d8" class="der"></div>
+        </div>
+        
+        <!------------------------------------------------------------->
+        <!------------------- FIN DE PROCESO -------------------------->
+        <!-------------------------------------------------------------> 
+        
+        <!------------------------------------------------------------->
+        <!---------------------- RECURSOS ----------------------------->
+        <!-------------------------------------------------------------> 
+        
+        <div id="escena9" class="escena">
+        	<img id="cinta4_1"src="img/recursos/cinta.png" style="width:0px; height:102px; position:absolute; top:0px; left:0px;"/>
+            
+            <div id="titulo_recursos"></div>
+            
+            <div id="carrusel1"></div>
+            <div id="carrusel2"></div>
+            <a target="_blank" href="http://www.proyectosalonhogar.com/Fisica/Leyes_Newton.htm"><div id="link1"></div></a>
+            
+            <div id="algo1"></div>
+            <div id="algo2"></div>
+            <a target="_blank" href="http://redescolar.ilce.edu.mx/redescolar/act_permanentes/conciencia/fisica/newton/nw4.htm"><div id="link2"></div></a>
+           
+           	<div id="algodon1"></div>
+            <div id="algodon2"></div>
+            <a target="_blank" href="http://www.si-educa.net/basico/ficha93.html"><div id="link3"></div></a>
+            
+			<div id="izq9" class="izquierda"></div>
+            <div id="der9" class="derecha"></div>
+            <img id="inicio9" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini9" class="ini"></div>  
+            
+            <div id="iii9" class="iii"></div>
+            <div id="ddd9" class="ddd"></div>
+            >
+            
+            
+            <div id="i9" class="izq"></div>
+            <div id="d9" class="der"></div>
+            
+            
+		</div>
+        
+        <!------------------------------------------------------------->
+        <!---------------------- EVALUACION ---------------------------->
+        <!-------------------------------------------------------------> 
+        
+        <div id="escena10" class="escena">
+        	
+            <img id="cinta5_1"src="img/proceso/cinta.png" style="width:0px; height:102px; position:absolute; top:0px; left:0px;"/>
+            
+            <div id="titulo_eval"></div>
+            
+            <div id="hoja"></div>
+            
+			<div id="izq10" class="izquierda"></div>
+            <div id="der10" class="derecha"></div>
+            <img id="inicio10" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px;"/>
+            <div id="ini10" class="ini"></div>  
+            
+            <div id="iii10" class="iii"></div>
+            <div id="ddd10" class="ddd"></div>
+            
+
+            
+            <div id="i10" class="izq"></div>
+            <div id="d10" class="der"></div>
+		</div>
+        
+        <!------------------------------------------------------------->
+        <!---------------------- CONCLUSION----------------------------->
+        <!-------------------------------------------------------------> 
+        
+        <div id="escena11" class="escena">
+        
+        	<img id="fondo_conclusion" src="img/proceso/fondo.png" style="position:absolute; width:148%; top:10px; left:-317px;"/>
+            
+            <img id="cinta6_1"src="img/proceso/cinta.png" style="width:0px; height:102px; position:absolute; top:0px; left:0px;"/>
+            
+            <div id="titulo_conclusion"></div>
+            
+            <img id="azul" src="img/conclusion/azul.png" style="position:absolute; width:150%; top:360px; left:-116px;"/>
+            
+            <div id="mm2"></div>
+            <div id="megafono"></div>
+            
+            <img id="megafono2" src="img/conclusion/m1.png" style="position:absolute; widows:52%; top:88px; left:124px; display:none;"/>
+            
+            <div id="fam"></div>
+            
+            <div id="text_conc">
+            
+            • ¿Qué han aprendido sobre las leyes
+            <br> 
+            <font style="opacity:0;">•</font> de Newton?
+            <br>
+            • ¿Qué relación hay entre las leyes
+            <br>
+            <font style="opacity:0;">•</font> de Newton y los juegos mecánicos?
+            <br>
+            • ¿Qué fuerzas están presentes 
+            <br>
+            <font style="opacity:0;">•</font> en los juegos mecánicos?
+            <br>
+            • ¿Qué hace posible que funcionen
+            <br>
+            <font style="opacity:0;">•</font> los juegos mecánicos?
+            
+            </div>
+            
+			<div id="izq11" class="izquierda" style="display:none;"></div>
+            <div id="der11" class="derecha" style="display:none;"></div>
+            <img id="inicio11" class="inicio" src="img/flechas/inicio.png" style="position:absolute; width:7%; top:37px; left:828px; display:none;"/>
+            <div id="ini11" class="ini" style="display:none;"></div>  
+            
+            <div id="iii11" class="iii"></div>
+            <div id="ddd11" class="ddd"></div>
+
+            
+            <div id="i11" class="izq" style="display:none;"></div>
+            <div id="d11" class="der" style="display:none;"></div>
+            
+            <div id="final"></div>
+		</div>
+        
+        
+    </div>
+
+</body>
+</html>

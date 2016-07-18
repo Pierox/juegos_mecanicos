@@ -1,0 +1,780 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:#000;
+font-family: Arial,Verdana, sans-serif;
+font-size:14px;
+}
+
+#Santillana_present{
+width: 983px;
+height: 690px;
+position: relative;
+overflow: hidden;
+background: #000;
+margin: 0 auto 0 auto;
+}
+
+
+
+.escena
+{
+	width:983px;
+	height:690px;
+	position:absolute;
+	display:none;
+}
+
+.izquierda
+{
+	background-image:url(../img/flechas/izquierda.png);
+	background-repeat:no-repeat;
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top: 78px;
+	left: 765px;
+}
+
+.derecha
+{
+	background-image:url(../img/flechas/derecha.png);
+	background-repeat:no-repeat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 77px;
+	left: 910px;
+}
+
+.izq
+{
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top: 78px;
+	left: 765px;
+	cursor:pointer;
+}
+
+.der
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 77px;
+	left: 910px;
+	cursor:pointer;
+}
+
+.ini
+{
+	width: 62px;
+	height: 90px;
+	position: absolute;
+	top: 44px;
+	left: 833px;
+	cursor:pointer;
+}
+/***********************/
+/*    ANIM INTRO       */
+/***********************/
+#intro{
+	width:983px;
+	height:690px;
+	display:none;
+	background-image:url(../img/intro.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin:0px 0px;
+	background-color:#000;
+}
+
+#pres1
+{
+	width:983px;
+	height:690px;
+	background-image:url(../img/presentacion/1.png);
+	position:absolute;
+	margin:0px 0px;
+	background-color:#000;
+}
+
+#pres2
+{
+	width:983px;
+	height:690px;
+	background-image:url(../img/presentacion/2.png);
+	position:absolute;
+	margin:0px 0px;
+	background-color:#000;
+}
+
+#pres3
+{
+	width:983px;
+	height:690px;
+	background-image:url(../img/presentacion/3.png);
+	position:absolute;
+	margin:0px 0px;
+	background-color:#000;
+}
+
+/***********************/
+/*    Caratula      */
+/***********************/
+
+#titulo_car
+{
+	background-image: url(../img/caratula/titulo2.png);
+	width: 437px;
+	height: 210px;
+	position: absolute;
+	display:none;
+	top: 477px;
+	left: 263px;
+}
+
+.hum
+{
+	width:107px;
+	height:100px;
+	position:absolute;
+	background-image:url(../img/humo/humo.png);
+	display:none;
+}
+
+#hum1
+{
+	top: 35px;
+	left: 137px;
+}
+
+#hum2
+{
+	top: 128px;
+	left: 160px;
+}
+
+#hum3
+{
+	top: 228px;
+	left: 175px;
+}
+
+#hum4
+{
+	top: 31px;
+	left: 708px;
+}
+
+#hum5
+{
+	top: 129px;
+	left: 752px;
+}
+
+#hum6
+{
+	top: 229px;
+	left: 720px;
+}
+
+.c
+{
+	display:none;
+	cursor:pointer;
+}
+
+#c1 
+{
+width: 256px;
+height: 33px;
+position: absolute;
+top: 65px;
+left: 58px;
+}
+
+#c2 
+{
+width: 128px;
+height: 33px;
+position: absolute;
+top: 162px;
+left: 148px;
+}
+
+#c3 
+{
+width: 165px;
+height: 33px;
+position: absolute;
+top: 261px;
+left: 148px;
+}
+
+#c4 
+{
+width: 173px;
+height: 33px;
+position: absolute;
+top: 65px;
+left: 679px;
+}
+
+#c5 
+{
+width: 224px;
+height: 33px;
+position: absolute;
+top: 162px;
+left: 705px;
+}
+
+#c6 
+{
+width: 221px;
+height: 33px;
+position: absolute;
+top: 263px;
+left: 670px;
+}
+
+/***********************/
+/* 	 INTRODUCC1ON     */
+/***********************/
+
+.introduccion
+{
+	background-image:url(../img/introduccion/fondo.png);
+}
+
+#titulo_int
+{
+	background-image:url(../img/introduccion/titulo.png);
+	width: 570px;
+	height: 100px;
+	position: absolute;
+	top: 21px;
+	left: -1px;
+}
+
+#text1_1
+{
+	width: 600px;
+	font-size: 18px;
+	top: 167px;
+	left: 519px;
+	position: absolute;
+}
+
+#text1_2
+{
+	width: 600px;
+	font-size: 18px;
+	top: 148px;
+	left: 519px;
+	position: absolute;
+	display:none;
+}
+
+#text1_3
+{
+	width: 600px;
+	font-size: 18px;
+	top: 167px;
+	left: 519px;
+	position: absolute;
+	display:none;
+}
+
+
+.letras
+{
+	width:983px;
+	height:690px;
+	position:absolute;
+	top:0px;
+	left:110px;
+	background-image:url(../img/introduccion/letras.png);
+	display:none;
+}
+
+
+#carro1
+{
+	background-image:url(../img/introduccion/carro.png);
+	width:239px;
+	height:509px;
+	position:absolute;
+	top: 177px;
+	left: -255px;
+
+}
+
+#carro2
+{
+	background-image:url(../img/introduccion/carro.png);
+	width:239px;
+	height:509px;
+	position:absolute;
+	top: 177px;
+	left: -255px;
+
+}
+
+#carro3
+{
+	background-image:url(../img/introduccion/carro.png);
+	width:239px;
+	height:509px;
+	position:absolute;
+	top: 177px;
+	left: 112px;
+
+}
+
+#carro4
+{
+	background-image:url(../img/introduccion/carro.png);
+	width:239px;
+	height:509px;
+	position:absolute;
+	top: 177px;
+	left: -255px;
+
+}
+
+#carro5
+{
+	background-image:url(../img/introduccion/carro.png);
+	width:239px;
+	height:509px;
+	position:absolute;
+	top: 177px;
+	left: 112px;
+
+}
+
+.chispa
+{
+	background-image:url(../img/introduccion/chispaa.gif);
+	width:47px;
+	height:47px;
+	position:absolute;
+	top:14px;
+	left:20px;
+}
+/***********************/
+/* 	      TAREA        */
+/***********************/
+
+#escena4
+{
+	background-image:url(../img/tarea/fondo.png);
+}
+
+#escena5
+{
+	background-image:url(../img/tarea/fondo2.png);
+}
+
+.titulo_tarea
+{
+	background-image:url(../img/tarea/titulo.png);
+	width:303px;
+	height:121px;
+	position:absolute;
+	top:14px;
+	left:1px;
+}
+
+
+#papel1
+{
+	background-image: url(../img/tarea/hoja1.png);
+	width: 228px;
+	height: 118px;
+	position: absolute;
+	top: 241px;
+	left: 472px;
+}
+
+#papel2
+{
+	background-image: url(../img/tarea/hoja2.png);
+	width: 228px;
+	height: 0px;
+	position: absolute;
+	top: 241px;
+	left: 472px;
+}
+
+#text5
+{
+	width: 500px;
+	font-size: 15px;
+	position: absolute;
+	top: 68px;
+	left: 12px;
+	display:none;
+}
+
+/***********************/
+/* 	     PROCESO       */
+/***********************/
+
+#escena6
+{
+	background-image:url(../img/proceso/fondo.png);
+}
+
+#escena7
+{
+	background-image:url(../img/proceso/fondo2.png);
+}
+
+#escena8
+{
+	background-image:url(../img/proceso/fondo2.png);
+}
+
+#libro1
+{
+	background-image:url(../img/proceso/libro1.png);
+	width: 396px;
+	height: 540px;
+	position: absolute;
+	top: 147px;
+	left: 524px;	
+}
+
+#ruleta
+{
+	background-image:url(../img/proceso/ruleta.png);
+	width:336px;
+	height:360px;
+	position:absolute;
+	top: 209px;
+	left: 565px;
+	cursor:pointer;
+}
+
+#libro2
+{
+	background-image:url(../img/proceso/cuaderno1.png);
+	width: 742px;
+	height: 485px;
+	position: absolute;
+	top: 147px;
+	left: 119px;	
+	
+}
+
+#libro3
+{
+	background-image:url(../img/proceso/cuaderno2.png);
+	width: 742px;
+	height: 485px;
+	position: absolute;
+	top: 147px;
+	left: 119px;	
+}
+
+#text7_2
+{
+	position: absolute;
+	width: 800px;
+	top: 95px;
+	left: 55px;
+	font-size: 20px;
+}
+
+#t:hover
+{
+	font-size:22px;
+}
+
+#text7_3
+{
+	position: absolute;
+	width: 800px;
+	top: 44px;
+	left: 395px;
+	font-size: 20px;
+}
+
+#text7_4
+{
+	position: absolute;
+	top: 136px;
+	left: 207px;
+	font-size: 13px;
+}
+
+#text7_5
+{
+	position: absolute;
+	top: 333px;
+	left: 31px;
+	font-size: 13px;
+}
+
+#text7_6
+{
+	position: absolute;
+	top: 303px;
+	left: 198px;
+	font-size: 13px;
+}
+
+.titulo_proceso
+{
+	position:absolute;
+	top: -12px;
+	left: -21px;
+	background-image:url(../img/proceso/titulo.png);
+	width:500px;
+	height:188px;
+}
+
+
+/***********************/
+/* 	    RECURSOS       */
+/***********************/
+
+#escena9
+{
+	background-image:url(../img/recursos/fondo.png);
+}
+
+#carrusel1
+{
+	background-image: url(../img/recursos/link1.png);
+	width: 318px;
+	height: 248px;
+	position: absolute;
+	top: 326px;
+	left: -8px;
+}
+
+#carrusel2
+{
+	background-image: url(../img/recursos/carrusel.png);
+	width: 318px;
+	height: 248px;
+	position: absolute;
+	top: 326px;
+	left: -8px;
+	display:none;
+}
+
+#link1
+{
+	width: 263px;
+	height: 139px;
+	position: absolute;
+	top: 351px;
+	left: 19px;
+	cursor:pointer;
+}
+
+
+#algo1
+{
+	background-image: url(../img/recursos/link2.png);
+	width: 330px;
+	height: 248px;
+	position: absolute;
+	top: 326px;
+	left: 363px;
+}
+
+#algo2
+{
+	background-image: url(../img/recursos/algo.png);
+	width: 330px;
+	height: 248px;
+	position: absolute;
+	top: 326px;
+	left: 363px;
+	display:none;
+}
+
+#link2
+{
+	width: 302px;
+	height: 180px;
+	position: absolute;
+	top: 337px;
+	left: 380px;
+	cursor: pointer;
+}
+
+
+
+#algodon1
+{
+	background-image: url(../img/recursos/link3.png);
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 271px;
+	left: 722px;
+}
+
+#algodon2
+{
+	background-image: url(../img/recursos/algodon.png);
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 271px;
+	left: 722px;
+	display:none;
+}
+
+#link3
+{
+	width: 198px;
+	height: 207px;
+	position: absolute;
+	top: 285px;
+	left: 753px;
+	cursor: pointer;
+}
+
+#titulo_recursos
+{
+	background-image:url(../img/recursos/titulo.png);
+	width:558px;
+	height:150px;
+	position:absolute;
+	top:-10px;
+	left:-26px;
+}
+/***********************/
+/* 	     ESCENA        */
+/***********************/
+
+#escena10
+{
+	background-image:url(../img/proceso/fondo.png);
+}
+
+#titulo_eval
+{
+	background-image:url(../img/evaluacion/titulo.png);
+	width:633px;
+	height:189px;
+	position:absolute;
+	top:-15px;
+	left:-16px;
+}
+
+#hoja
+{
+	background-image:url(../img/evaluacion/hoja.png);
+	width:897px;
+	height:687px;
+	position:absolute;
+	top: 99px;
+	left: -851px;
+}
+
+#megafono
+{
+	background-image:url(../img/conclusion/megafonoo.png);
+	width:721px;
+	height:518px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+#mm2
+{
+	background-image:url(../img/conclusion/m2.png);
+	width:61px;
+	height:820px;
+	position:absolute;
+	top: 277px;
+	left: 341px;
+}
+
+
+
+
+
+#titulo_conclusion
+{
+	background-image:url(../img/conclusion/titulo.png);
+	width:583px;
+	height:169px;
+	position:absolute;
+	top:-12px;
+	left:-17px;
+	display:none;
+}
+
+#fam
+{
+	background-image:url(../img/conclusion/fam.png);
+	width:463px;
+	height:349px;
+	position:absolute;
+	top: 366px;
+	left: 588px;
+	display:none;
+}
+
+#text_conc
+{
+	font-size: 18px;
+	position: absolute;
+	top: 174px;
+	left: 554px;
+	display:none;
+}
+
+
+.iii
+{
+	background-image:url(../img/flechas/iii.png);
+	width:58px;
+	height:58px;
+	position:absolute;
+	top: 74px;
+	left: 765px;
+	display:none;
+}
+
+.ddd
+{
+	background-image:url(../img/flechas/ddd.png);
+	width:58px;
+	height:58px;
+	position:absolute;
+	top: 74px;
+	left: 907px;
+	display:none;
+}
+
+#final
+{
+	background-image:url(../img/final.png);
+	width:983px;
+	height:690px;
+	top:0px;
+	left:0px;
+	position:absolute;
+	display:none;
+}
+
+
+
+
+
+
+
